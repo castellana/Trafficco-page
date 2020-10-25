@@ -1,0 +1,156 @@
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Rubik', sans-serif; */
+
+body {
+    background: #FDEDE8;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* header {
+    background:url(../img/scene.svg), url(../img/mobel.svg);
+    background-position: left top, left bottom;
+    background-size: 100%, 38%;
+    position: absolute;
+    z-index: 1;
+    background-repeat: no-repeat;
+    min-height: 135vh;
+} */
+header {
+    background:url(../img/scene.svg);
+    background-position: left top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.mobel {
+    width: 38%;
+    margin-top: 43vh;
+    margin-bottom: 10vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    height: 15vh;
+}
+.logo {
+    height: 6vh;
+}
+.menu {
+    list-style: none;
+    display: flex;
+}
+.menu__item {
+    padding: 10px 20px 10px;
+}
+.menu a,.menu__link, .header-button {
+    text-decoration: none;
+    color: #fff;
+    font-size: .8rem;
+}
+.menu__item:last-child, .header-button {
+    background: #EE4D47;
+    padding: 10px 20px 10px;
+    border-radius: 5px;
+}
+.header-button {
+    display: block;
+    width: 15%;
+}
+/* .header-button {
+    margin: 40vh 0 0 15%;
+} */
+.header-title {
+    font-size: 3rem;
+    color: #fff;
+    width: 50%;
+    font-family: 'DM Serif Display', serif;
+}
+
+.about{
+    background: url(../img/illustration.png) right / 55% no-repeat;
+    height: 70vh;
+    width: 75%;
+    margin: 10vh auto;
+
+}
+.about-text {
+    line-height: 25px;
+}
+.section-title {
+    color: #EE4D47;
+    padding-top: 8vh;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.section__p {
+    font-weight: 300;
+    font-size: 0.7rem;
+    padding: 7vh 0;
+}
+.about .section__p {
+    width: 40%;
+}
+.about__question {
+    background: #FCDDD4;
+    border-left: 10px solid #ED4D47;
+    width: 44%;
+    font-weight: 500;
+    font-size: .8rem;
+    padding: 28px;
+}
+.apply {
+    background: url(../img/illustrations.png) -20% bottom/ 60% no-repeat;
+    height: 70vh;
+    width: 75%;
+    margin: 20vh auto;
+    font-weight: 700;
+}
+.apply-text {
+    line-height: 25px;
+    margin-left: 60%;
+}
+
+/*Section FAQ*/
+.faq {
+    height: 100vh;
+    background: url(../img/Rectangle\ 9.png);
+    background-position: right;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    display: flex;
+  
+}
+.faq-text {
+    width: 35%;
+    margin-left: 15%;
+}
+.faq-title2 {
+    font-family: 'DM Serif Display', serif;
+    padding: 7vh 0;
+    font-size: 2rem;
+}
+.faq__p1 {
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 5vh;
+    background: #fff;
+    margin-top: 10vh;
+}
+.faq__p2 {
+    font-weight: 300;
+    font-size: 0.7rem;
+    padding: 5vh;
+}
+.faq-img {
+    height: 60vh;
+}
